@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+
+	
+	<Project_ID>AP23</Project_ID>
+	
+	<Project_Name>Accural Posting with logging framework</Project_Name>
+	
+	<Employee_Code>199</Employee_Code>
+	
+	<Description>PAYearMonth</Description>
+	
+	<Voucher_Series>953</Voucher_Series>
+	
+	<Client_ID>800</Client_ID>
+	<BotRun_Year>2020</BotRun_Year>
+	<BotRun_Month>May</BotRun_Month>
+	<Month_endDate>19.05.2020</Month_endDate>
+	
+	<Script>
+	
+		<Month_Script>C:\Users\osmel2\Desktop\AA_AccrualPosting\Month.js</Month_Script>
+		<AE_BE_Script>C:\Users\osmel2\Desktop\AA_AccrualPosting\AE_BE_System.xml</AE_BE_Script>
+		
+	</Script>
+
+	<Visma>
+	
+	    <Visma_Path>C:\\Program Files (x86)\Visma\Business\VismaBusiness.exe</Visma_Path>
+	    <Visma_Credentials>OSMEL7</Visma_Credentials>	
+		
+	</Visma>
+	
+	<eBudget>
+	
+	    <eBudget_Credentials>Visma_Credentials</eBudget_Credentials>
+		
+	    <eBudget_URL>https://ebudget.osm.no/Home?goToUrl=</eBudget_URL>
+		
+	    <eBudget_Lumpsum_URL>https://ebudget.osm.no/LumpsumCorrection/Search</eBudget_Lumpsum_URL>
+		
+	    <eBudget_CostPlusFee_URL>https://ebudget.osm.no/CostPlusFee/Search</eBudget_CostPlusFee_URL>
+		
+	    <eBudget_Agency_URL>https://ebudget.osm.no/AgencyAgreement/Search</eBudget_Agency_URL>     	
+		
+		<Download_Location>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\</Download_Location>
+		<SC_Download_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_{Vcode}_{Month}_{Year}.pdf</SC_Download_Path>
+		<Lumpsum_Download_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\Lumpsum_Docs_{Vcode}_{Month}_{Year}.pdf</Lumpsum_Download_Path>
+		
+	</eBudget>
+	
+
+	
+	<Monthly_Queue>
+	
+	    <SourceFile_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Monthly_Queue_Logs\Accural_QueueLogs.xlsx</SourceFile_Path>
+	    <MQ_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Monthly_Queue_Logs\Accural_QueueLogs_{Month}_{Year}.xlsx</MQ_Path>
+	    <MQ_Sheet>Queue_Logs_report</MQ_Sheet>	
+		<VesselMatrix_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\VesselMatrix\Vessel Matrix_AutoAccural_Posting.xlsx</VesselMatrix_Path>
+		<VesselMatrix_SheetName>VM_Main</VesselMatrix_SheetName>
+		
+	</Monthly_Queue>
+	
+	<AccrualReprot_Path>
+	
+	    <AR_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_{Month}_{Year}\AccuralReport_{Vcode}_{Month}_{Year}.csv</AR_Path>
+        <AR_Sheet>AccuralReport_{Vcode}_{Month}_{Year}</AR_Sheet>		
+		
+	</AccrualReprot_Path>
+
+    <LogFile_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Log_Files\LogDetails_{Month}_{Year}.txt</LogFile_Path>
+	<ErrorSnapShot_Path>C:\Users\osmel2\Desktop\AA_AccrualPosting\Error_SnapShots</ErrorSnapShot_Path>
+
+	<API_URL>
+	
+	    <VM_Main_URL>https://tst-email-rpa.osm.no/VesselMatrix/GetVesselMatrix?sheetName=VM_Main</VM_Main_URL>
+		<CreatEmail_Record_URL>https://tst-email-rpa.osm.no//Email//CreateEmailRecord</CreatEmail_Record_URL>
+		<CreateEmailDetail_Record_URL>https://tst-email-rpa.osm.no//Email//CreateEmailDetailRecord</CreateEmailDetail_Record_URL>
+	    
+	</API_URL>	
+	
+	<Email_Details>
+	<Support_Email>Shubham.Singh@simplifai.ai</Support_Email>
+	<From_Email>rpa.robot.12@osm.no</From_Email>
+	<ErrorMail_Subject> [Auto Invoicing Accural Posting][Application Exception] in line</ErrorMail_Subject>
+	</Email_Details>
+	
+</Configuration>

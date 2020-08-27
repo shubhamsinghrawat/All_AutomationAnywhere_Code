@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="AutoInvoicing_AccrualPosting.atmx">
+    <Properties>
+      <Property Name="LastRunTime">03/11/2020 07:31:55</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AccuralPosting_MainFile.atmx">
+    <Properties>
+      <Property Name="LastRunTime">05/22/2020 09:11:10</Property>
+      <Property Name="RunDuration">00:00:17</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Test.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/11/2020 12:33:21</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="API_VesselMatrix.atmx">
+    <Properties>
+      <Property Name="LastRunTime">03/17/2020 10:09:44</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AccrualPosting_Ebudget.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:42:33</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AccrualPosting_Ebudget_DownloadReports.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:41:23</Property>
+      <Property Name="RunDuration">00:00:46</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AccrualPosting_Visma.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:41:32</Property>
+      <Property Name="RunDuration">00:00:08</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AccrualPosting_Visma_50Manila.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:42:01</Property>
+      <Property Name="RunDuration">00:00:28</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AccrualPosting_Visma_CleanFilter.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:42:02</Property>
+      <Property Name="RunDuration">00:00:01</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="SaveAndClose_Visma_Page.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:42:28</Property>
+      <Property Name="RunDuration">00:00:11</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Close_VismaApplication.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/25/2020 20:18:48</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Shubham.Singh@simplifai.ai.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/27/2020 20:12:28</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Shubham.singh@simplifai.aiB2.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/27/2020 20:17:21</Property>
+      <Property Name="RunDuration">00:00:02</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Shubham.Singh@simplifai.aiB3.atmx">
+    <Properties>
+      <Property Name="LastRunTime">04/27/2020 19:06:54</Property>
+      <Property Name="RunDuration">00:00:14</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

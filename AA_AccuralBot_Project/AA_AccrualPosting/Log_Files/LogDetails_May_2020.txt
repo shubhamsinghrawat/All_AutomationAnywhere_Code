@@ -1,0 +1,334 @@
+(12.06.2020 10.34.43) *****************************Auto invocing process started*****************************
+Config path: C:\Users\osmel2\Desktop\AA_AccrualPosting\ConfigData\configuration.xml
+Initialization of varibales ended
+Killing excel, IE, Vbus proccess ended
+Collecting data from config file ended
+(12.06.2020 10.34.43) Creat email record url: https://tst-email-rpa.osm.no//Email//CreateEmailRecord
+Message ID : "fdce1388-1a6d-4d96-a6e5-54eb3dd52b68"
+Reading data from monthly queue
+Monthly queue path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Monthly_Queue_Logs\Accural_QueueLogs_May_2020.xlsx
+Monthly queue sheet name: Queue_Logs_report
+*******Vessel Details*******
+Vessel name: POLAR MARQUIS
+Vessel Code: 5200
+Report Month: May
+Report Year: 2020 
+Agreement: Lumpsum
+EmailDetail ID: 45f517c7-d5cf-4c0f-a414-809463fa4acd
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+ebudget URL: https://ebudget.osm.no/Home?goToUrl=
+Vessel Agreement: lumpsum
+Vess has Agreement :True
+Vessel Exists: True
+Report Status: total no. of searched record: 5
+is report posted: False
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: True
+Business EXp Message: Reports are not posted
+******************Business exception process ended******************
+*******Vessel Details*******
+Vessel name: EKEN
+Vessel Code: 5206
+Report Month: May
+Report Year: 2020 
+Agreement: Cost plus Fee
+EmailDetail ID: 80b29614-d061-404b-94d0-758c76688cfb
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+Vessel Agreement: cost plus fee
+Vess has Agreement :True
+Vessel Exists: True
+Report Status: total no. of searched record: 4
+is report posted: True
+Downloading reports from ebudget
+************Accrual report and downloading process started.***************
+Total rows in Accural Report: 39
+Accural Path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_May_2020\AccuralReport_5206_May_2020.csv
+URL : https://ebudget.osm.no/CostPlusFeeReport/CostPlusFeeLandscape/12549?isSocialCost=True
+CS Social cost Path name: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_5206_May_2020.pdf
+Agreement: cost plus fee
+Reports Downloaded: True
+Accrual path : C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_May_2020\AccuralReport_5206_May_2020.xlsx
+SC Path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_5206_May_2020.pdf
+Llumsum path: 
+
+************Accrual report and downloading process ended.***************
+Visma Process started
+************Login to visma process started.***************
+Visma Account : OSMEL7
+************Login to visma process ended.***************
+************Navigating 50 manila page started.***************
+Batch num: 3733
+
+Department Code: 20110
+MonthEnd Date: 19.05.2020
+Description: PA2020May
+Employee code:199
+Voucher number : 600002428
+
+************Navigating 50 manila page ended.***************
+Filter process started
+************Open and clean filter process started.***************
+************Open and clean filter process ended.***************
+************Saving closing visma process started.***************
+Sending mail to OSM process started
+Sending mail to OSM process started
+Attachment path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_5206_May_2020.pdf
+Sending to :Shubham.Singh@simplifai.ai
+From: rpa.robot.12@osm.no
+Body: 
+[ClientId: 12549]
+[ArchiveNo: 600002428
+ ]
+Mail Sent : True
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: False
+Business EXp Message: 
+******************Business exception process ended******************
+UPDATE  [Queue_Logs_report$] Set UPDATE  [Queue_Logs_report$] Set FINAL_STATUS='Success' Where VESSEL_CODE_FOR_VISMA_OCS_EBUDGET_EYESHARE= 5206
+*******Vessel Details*******
+Vessel name: EK-RIVER
+Vessel Code: 5257
+Report Month: May
+Report Year: 2020 
+Agreement: Cost plus Fee
+EmailDetail ID: d1bd78f9-77a7-4a22-a869-bffbc66d8369
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+Vessel Agreement: cost plus fee
+Vess has Agreement :True
+Vessel Exists: True
+Report Status: total no. of searched record: 4
+is report posted: True
+Downloading reports from ebudget
+************Accrual report and downloading process started.***************
+Total rows in Accural Report: 39
+Accural Path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_May_2020\AccuralReport_5257_May_2020.csv
+URL : https://ebudget.osm.no/CostPlusFeeReport/CostPlusFeeLandscape/12552?isSocialCost=True
+CS Social cost Path name: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_5257_May_2020.pdf
+Agreement: cost plus fee
+Reports Downloaded: True
+Accrual path : C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_May_2020\AccuralReport_5257_May_2020.xlsx
+SC Path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_5257_May_2020.pdf
+Llumsum path: 
+
+************Accrual report and downloading process ended.***************
+Visma Process started
+************Login to visma process started.***************
+Visma Account : OSMEL7
+************Login to visma process ended.***************
+************Navigating 50 manila page started.***************
+Batch num: 3734
+
+Department Code: 20110
+MonthEnd Date: 19.05.2020
+Description: PA2020May
+Employee code:199
+Voucher number : 600002429
+
+************Navigating 50 manila page ended.***************
+Filter process started
+************Open and clean filter process started.***************
+************Open and clean filter process ended.***************
+************Saving closing visma process started.***************
+Sending mail to OSM process started
+Sending mail to OSM process started
+Attachment path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\SocialCost_5257_May_2020.pdf
+Sending to :Shubham.Singh@simplifai.ai
+From: rpa.robot.12@osm.no
+Body: 
+[ClientId: 12552]
+[ArchiveNo: 600002429
+ ]
+Mail Sent : True
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: False
+Business EXp Message: 
+******************Business exception process ended******************
+UPDATE  [Queue_Logs_report$] Set UPDATE  [Queue_Logs_report$] Set FINAL_STATUS='Success' Where VESSEL_CODE_FOR_VISMA_OCS_EBUDGET_EYESHARE= 5257
+*******Vessel Details*******
+Vessel name: VERITAS VIKING
+Vessel Code: 5273
+Report Month: May
+Report Year: 2020 
+Agreement: Cost plus Fee
+EmailDetail ID: 2b308bdb-451f-425f-ab77-0979a76461aa
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+Vessel Agreement: cost plus fee
+Vess has Agreement :True
+Vessel Exists: False
+is report posted: False
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: True
+Business EXp Message: Failed to find vessel in ebudget
+******************Business exception process ended******************
+*******Vessel Details*******
+Vessel name: VANTAGE
+Vessel Code: 5275
+Report Month: May
+Report Year: 2020 
+Agreement: Cost plus Fee
+EmailDetail ID: b1b03d33-5939-4a9d-a39d-124002bdd635
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+Vessel Agreement: cost plus fee
+Vess has Agreement :True
+Vessel Exists: False
+is report posted: False
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: True
+Business EXp Message: Failed to find vessel in ebudget
+******************Business exception process ended******************
+*******Vessel Details*******
+Vessel name: BITFLOWER
+Vessel Code: 5289
+Report Month: May
+Report Year: 2020 
+Agreement: Agency
+EmailDetail ID: ec3cd3bc-ef5b-4d06-af99-8dbf777eb09d
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+Vessel Agreement: agency
+Vess has Agreement :True
+Vessel Exists: False
+is report posted: False
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: True
+Business EXp Message: Failed to find vessel in ebudget
+******************Business exception process ended******************
+*******Vessel Details*******
+Vessel name: STEN BALTIC
+Vessel Code: 5384
+Report Month: May
+Report Year: 2020 
+Agreement: Lumpsum
+EmailDetail ID: 5388ded6-207b-4f38-a7ff-d846ee3452ad
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************
+Vessel Agreement: lumpsum
+Vess has Agreement :True
+Vessel Exists: True
+Report Status: ebudget
+is report posted: True
+Downloading reports from ebudget
+************Accrual report and downloading process started.***************
+Total rows in Accural Report: 39
+Accural Path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_May_2020\AccuralReport_5384_May_2020.csv
+URL :https://ebudget.osm.no/LumpsumReports/CrewCostLandscape/7388?isHideContracted=false
+Crew cost Path name:  C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\Lumpsum_Docs_5384_May_2020.pdf
+Agreement: lumpsum
+Reports Downloaded: True
+Accrual path : C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\Accural_Reports\Accrual_May_2020\AccuralReport_5384_May_2020.xlsx
+SC Path: 
+Llumsum path: C:\Users\osmel2\Desktop\AA_AccrualPosting\Data\DownloadReports\Lumpsum_Docs_5384_May_2020.pdf
+
+************Accrual report and downloading process ended.***************
+Visma Process started
+************Login to visma process started.***************
+Visma Account : OSMEL7
+************Login to visma process ended.***************
+************Navigating 50 manila page started.***************
+Batch num: 3735
+
+Department Code: 20110
+MonthEnd Date: 19.05.2020
+Description: PA2020May
+Employee code:199
+Voucher number : 600002430
+
+************Navigating 50 manila page ended.***************
+Filter process started
+************Open and clean filter process started.***************
+************Open and clean filter process ended.***************
+************Saving closing visma process started.***************
+Sending mail to OSM process started
+Sending mail to OSM process started
+Attachment path: 
+Sending to :Shubham.Singh@simplifai.ai
+From: rpa.robot.12@osm.no
+Body: 
+[ClientId: 7388]
+[ArchiveNo: 600002430
+ ]
+Mail Sent : True
+*********************************************Central logging process started*********************************************
+**************************Application exception process started*********************
+Have Applicatio exception: False
+Exception Message:
+Description: 
+Error Line num: 0
+**************************Application exception process ended*********************
+******************Business exception process started******************
+Has business EXP: False
+Business EXp Message: 
+******************Business exception process ended******************
+UPDATE  [Queue_Logs_report$] Set UPDATE  [Queue_Logs_report$] Set FINAL_STATUS='Success' Where VESSEL_CODE_FOR_VISMA_OCS_EBUDGET_EYESHARE= 5384
+*******Vessel Details*******
+Vessel name: STEN NORDIC
+Vessel Code: 5385
+Report Month: May
+Report Year: 2020 
+Agreement: Lumpsum
+EmailDetail ID: 4917b7a0-baf4-44b7-ad6e-599743194329
+Login to ebudget process started
+EmailDetail ID: Internal server error, Object reference not set to an instance of an object.
+Login to ebudget process started
+***************************Login to ebudget process started***************************

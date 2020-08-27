@@ -1,0 +1,189 @@
+{
+
+"Employee Code" : "199",
+"Description" : "PAYearMonth",
+"Vocher Series" : "953",
+
+
+"VB_Credentials" : "Visma_Login_Crdentials" ,
+"Ebudget Credential" : "Ebudget_Credential",
+"Eyeshare_Credentials" : "Eyeshare_Credentials" ,
+"eCrew_Credential" : "eCrew_Login_Credential",
+
+
+
+"VesselLogs_Excel" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\Monthly_RunTime_Logs\\Accural_RunTime_Logs_{Month}_Year.xlsx",
+"VesselLogs_SheetName" : "Logs_report",
+
+"Monthly_Queue_Logs_Excel" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\Monthly_Queue_Logs\\Accural_QueueLogs_{Month}_Year.xlsx",
+"MonthlyQueue_SheetName" : "Queue_Logs_report",
+
+
+"LocalFolder_Accrual" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\Accural_Reports\\AccuralReport_Year\\AccuralReport_Month_Year",
+"LocalPath_Accrual" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\Accural_Reports\\AccuralReport_Year\\AccuralReport_Month_Year\\AccuralReport_VesselCode_Month_Year.xlsx",
+"SheetName_Accrual_Excel" : "Accural_Sheet",
+
+"Vessel_Matrix_Path" : "H:\\Simplifai\\RPA_Files\\Data for all solutions\\Vessel Matrix_AutoAccural_Posting.xlsx",
+"VesselMatrix_SheetName":"VM_Main",
+
+"BE_and_AE_AccuralReports_Path" : "H:\\Simplifai\\RPA_Files\\Data for all solutions\\BE and AE Accural_Reports.xlsx",
+"BE_and_AE_SheetName":"Exception",
+
+"Subject_SendMail" :"Vessels detail from accural posting BOT",
+"Supdoc_MailSubject" : "[Auto Invoicing Accural Posting]Archive supporting document",
+"SuccessVessel_LocalPath": "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\SuccessVessel.txt",
+
+
+"VB_07Invoicing_Description_StandardFees" : "Standard Fees",
+"VB_07Invoicing_ProductNo_StandardFees" : "33108",
+
+"VB_07Invoicing_Description_SocialCosts" : "Social costs",
+"VB_07Invoicing_ProductNo_SocialCosts" : "33132",
+
+
+"VB_07Invoicing_Description_LumpsumCorrection" : "Lumpsum Correction",
+"VB_07Invoicing_ProductNo_LumpsumCorrection" : "33108",
+
+"Invoice Status" : "6",
+
+
+
+"Ebudget Link" : "https://ebudget.osm.no",
+"Lumpsum link" : "https://ebudget.osm.no//LumpsumCorrection//Search",
+"CostPlusFees link" : "https://ebudget.osm.no/CostPlusFee/Search",
+"Agency link" : "https://ebudget.osm.no/AgencyAgreement/Search",
+"Subdocs Link": "http://supdocs/SupportingDocs?id=0800",
+"Eyeshare Link" : "https://eye-share.osm.no/eyeshare1/main.asp?client=0113#INVOICE:0113:LT077:1",
+
+"Ebudget Status" : "Posted",
+
+
+
+
+"Download_Localfolder" : "C:\\Users\\osme14\\Downloads\\",
+"SubDocs path" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Supporting_Documents\\SupDoc_{VesselName}_{VesselCode}_{YearMonth}.pdf",
+"SubDocs_path_Subject" :"",
+"InvoiceFormate_Path" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\InvoiceFormate.txt",
+"InvoiceFormate_Path_Subject" : "",
+"No_Vessel_Path" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\No_Vessel.txt",
+"No_Vessel_Path_Subject" :"Bot could not find vessel data in Vessel matrix",
+
+"VRF_validation_fails_Path" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\VRF_validation_fails.txt",
+"VRF_validation_fails_Path_Subject" :"The VRF has failed validation test",
+
+"VRF_Sheet_NotExists" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Sheet_NotExists.txt",
+"VRF_Sheet_NotExists_Subject" : "Sheet Doesn't exists in VRF",
+
+"Invalid_Month":"H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Invalid_Month.txt",
+"Invalid_Month_Subject":"Invalid VRF Month",
+
+"Duplicate_VRF":"H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\VRF_Exists.txt",
+"Duplicate_VRF_Subject":"VRF already in Monthly queue",
+
+"ExceptionHandling_LocalPath" :"H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\Exception_Excel\\ExceptionsData_{MMM_yyyy}.xlsx",
+"ExceptionHandling_SheetName" :"Exception",
+
+"Invoice path" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\",
+
+
+
+"BusinessEXP_Mail" :"CustomerInvoicing.Manila@osm.no;hao.wu@simplifai.ai;shubham.singh@simplifai.ai;Pooja.shah@simplifai.ai",
+"BusinessEXP_MailSubject" :"[Auto Invoicing Accural Posting][Business Exception]",
+
+"System_Support_Mail" :"shubham.singh@simplifai.ai;hao.wu@simplifai.ai;Pooja.shah@simplifai.ai",
+"System_Exception_Subject" : "[Auto Invoicing Accural Posting][Application Exception]in state[State_Name]",
+
+"Invoice_Archive_Mail" :"invoice.archive@osm.no;hao.wu@simplifai.ai;shubham.singh@simplifai.ai;Pooja.shah@simplifai.ai",
+"EmailAccount_SendFrom" : "rpa.robot.12@osm.no",
+
+"Exception_EmailID":"shubham.singh@simplifai.ai",
+"Project_Name" :"Accural Posting",
+
+"ExchangeMail_Server" : "https://outlook.office365.com//EWS//Exchange.asmx",
+"ExchangeMail_Domain" : "osm.no",
+"ExchangeMail_User" : "rpa.robot.12@osm.no",
+"ExchangeMail_Password" : "Tt9p8WXmTt9p8WXm",
+
+"Vessel_agreement_exception" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Vessel_agreement_exception.txt",
+"Vessel_agreement_exception_Subject":"Vessel agreement exception",
+
+"Vessel_Property_Exception" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Vessel_DataProp_Exception.txt",
+"Vessel_Property_Exception_Subject":"VESSEL_DATA_PROPERTY_VRF_07 is not Correct",
+
+"Invoice_Number_exception" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Invoice_Number_exception.txt",
+"Invoice_Number_exception_Subject":"More than one or manual Invoice ID type",
+
+"SF_BreakDown" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\SheetName_SF_Brkdown.txt",
+"SF_BreakDown_Subject":"Standard Fees is Breakdown",
+
+"SFSC_BreakDown" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\SheetName_SFSC_Brkdown.txt",
+"SFSC_BreakDown_Subject":"SF and SC is breakdown",
+
+"Vessel_NotApp_Exception" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\SheetName_NotApplicable.txt",
+"Vessel_NotApp_Exception_Subject" :"Sheet Name is not Valid",
+
+"Lumpsum_Brkdown_Exception" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Lumpsum_Brkdown.txt",
+"Lumpsum_Brkdown_Exception_Subject" :"Required Lumpsum correction is breakdown",
+
+"Ebudget_Status_NotPosted" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\Ebudget_Status_NotPosted.txt",
+"No_Invoice" :"H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\No_Invoice.txt",
+"No_Vessel_Ebudget" : "H:\\Simplifai\\RPA_Files\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\No_Vessel_Ebudget.txt",
+"No_Vessel_Ebudget_Subject" : "Bot could not find vessel name in  Ebudget",
+
+
+"RuleEngine_CreatEmail_Record" : "https://email-rpa.osm.no//Email//CreateEmailRecord",
+"RuleEngine_CreateEmailDetail_Record" :"https://email-rpa.osm.no//Email//CreateEmailDetailRecord",
+"RuleEngine_GetVRF_URL" : "https://email-rpa.osm.no//Email//GetEmailAndEmailDetailsQueue?BotName={BotName}&Count={Count}",
+"RuleEngine_UpdateStatusCode_URL" : "https://email-rpa.osm.no//Email//UpdateEmailDetailsQueue",
+"RuleEngine_GetData_VM_Main_URL" :"https://email-rpa.osm.no/VesselMatrix/GetVesselMatrix?sheetName=<>",
+"RuleEngine_LoggingFramework_URL":"https://email-rpa.osm.no/BotLog/LogJob",
+
+
+"Rule_Engine_EbudgetReports_EventID": "58BCD65E-3B76-4869-A06A-4715647A5B72",
+"Rule_Engine_Ebudget_DownLoadReports_EventID":"5555FCD9-4886-468C-863C-2957A47A39F4",
+"Rule_Engine_AccuralPosting_EventID":"F7B56F56-8E56-472C-86BF-76366A1FF286",
+
+
+
+"Rule_Engine_InvoiceAssitant_JobTypeID" : "61E56D6F-10C2-436E-BA69-37320791C3D8",
+"Rule_Engine_AccuralPosting_ProcessTypeID"  : "C2720CF6-E335-45F7-A16D-515FE6B1B1FA",
+
+
+"Rule_Engine_VesselNameTypeId" : "5F24515E-F51F-41E3-BE20-43394554EB03",
+"Rule_Engine_SectorTypeId" : "C8906734-D15C-4754-9B2E-4FFCA9BC9AA6",
+"Rule_Engine_SubsidiaryAccountNumTypeId" : "06A6B167-F091-4DE8-8E5D-19544229B0E9",
+"Rule_Engine_PayrollIntervalOcsTypeId" : "A6E18C2F-BDE9-46C7-AD13-466A85872B3D",
+"Rule_Engine_CompanyOcsTypeId" : "BB2E1871-2C79-4619-AB9A-C244EA04AD10",
+"Rule_Engine_vesselTypeTypeId" : "A5F3BCA0-181B-441A-BE2E-FB3E6E637538",
+
+
+"Rule_Engine_ApplicationExceptionMetadataTypeId" : "FC1D6D3F-8EDD-43D2-9197-FB9565EF03B8", 
+"Rule_Engine_BusinessExceptionMetadataTypeId" : "76760230-9EA5-4814-BD5A-67AA6C8A7156",
+"Rule_Engine_StatusMetaDataTypeId" : "E3FE2267-08FC-4CD9-98EF-650C5237BE9A",
+"Rule_Engine_DescriptionMetaDataTypeId" : "5F7A35FD-641B-47DA-BF32-A2E3DEABAFEC",
+
+
+
+"Solution_Category_Type" : "ACCRUALPOSTING",
+"RuleEngine_Subject" : "Accural Posting",
+
+"StartProcess_WD_Date" :"1",
+"EndProcess_WD_Date" : "5",
+"Should_StartBot_CurrentMonth":"False",
+
+"Comment_AutoInvoing":"Auto invoicing Accrual Report Posting",
+"Subject_SendMail" :"Vessel details From Autoinvoicing Accrual Report",
+"SuccessVessel_LocalPath":"H:\\Simplifai\\RPA_Files_ForDevandTest\\Solution 6\\Accural_Reports_P4\\Data\\MailFormate\\SuccessVessel.txt",
+
+"Business_ErrorType": "BussinessException",
+"Business_ErrorStatus": "Error",
+
+"System_ErrorType": "RPAExecutionError",
+"System_ErrorStatus": "Error",
+
+"Success_Type": "Success",
+"Success_Status": "",
+
+"PartiallyProcessed":"PartiallyProcessed"
+
+}

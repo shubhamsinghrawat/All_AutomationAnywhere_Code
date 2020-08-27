@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="AccuralPosting_MainFile.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/12/2020 10:42:33</Property>
+      <Property Name="RunDuration">00:07:50</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+</Entities>
